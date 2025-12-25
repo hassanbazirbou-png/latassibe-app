@@ -9,7 +9,7 @@ import time
 st.set_page_config(page_title="LATASSIBE MANAGER", page_icon="🦅", layout="wide")
 
 # URL DU LOGO (Tu pourras remplacer ce lien par le lien de ton image plus tard)
-LOGO_URL = "https://cdn-icons-png.flaticon.com/512/9560/9560506.png" 
+LOGO_URL = "https://z-p3-scontent.fnsi1-2.fna.fbcdn.net/v/t39.30808-6/605500787_1270483641767299_1345187654929165393_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEDM52dJPlWEfxZs9Z1UB1hrgq3Zf9DQg-uCrdl_0NCD16WcnxokZdIDxmIDrAZVC1DQdOKRP0d-SuA3csin24f&_nc_ohc=8PYjqrsRSqUQ7kNvwFL1CV4&_nc_oc=AdnsYlTskCJ8QKOryGLPTO_3EJJpwHBq_D83Vl6TFEkAO6chC_fwp1ARo7hPhvk1ZuA&_nc_zt=23&_nc_ht=z-p3-scontent.fnsi1-2.fna&_nc_gid=9rf1usD8pxGc3jXTbConrw&oh=00_AfkQXBQbxbITOceBwxt21vs8OIi6VRn-OucivHqo-HrgIw&oe=69539EB0" 
 
 # --- LE STYLE LATASSIBE (Gold & Black) ---
 st.markdown("""
@@ -312,3 +312,4 @@ else:
                 st.warning("Système remis à zéro.")
                 time.sleep(1)
                 st.rerun()
+
